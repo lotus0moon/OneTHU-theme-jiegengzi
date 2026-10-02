@@ -89,4 +89,4 @@ node test.mjs                              # 本包骨架自检：113 通过 / 0
 - 圆角 `4/6/10px` 与材料 `02` §7④ 的示例不同，原因见 `reports/05-文档与源码差异清单.md` D-2。
 - 未做真机走查（环境无桌面端），详情见 `reports/04-验证报告.md` §6。
 - 亮色 `--primary` 是材料指定的官方紫 `#660874`，对内置紫水晶的 ΔH 为 29.0°（对 `#7c3aed` 28.6°），低于 `02` §7.1① 的 30° 量级；该线针对强调色，本主题 `--accent #892695` 对紫水晶 30.2–30.6° 达标。改 `--primary` 会违反「主按钮用官方紫」，故不改（复核意见 S8，见 `reports/06` §5.2）。
-- `repo` 是占位地址，发布前替换；若两个主题放同一个仓库，请按「单仓库 + 子目录」填写（见根 `README.md` §二），两种形态已由 `node tools/check-install.mjs` 验证。
+- `repo` 已指向本主题的发布仓库 `https://github.com/lotus0moon/OneTHU-theme-jiegengzi`（仓库根即有 `plugin.js`，2026-10-02 已发布）；若把两个主题放同一个仓库，请按「单仓库 + 子目录」填写（见根 `README.md` §二），两种形态已由 `node tools/check-install.mjs` 验证。
