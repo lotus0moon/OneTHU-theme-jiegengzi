@@ -1,0 +1,9 @@
+{
+  "name": "onethu-theme-jiegengzi",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "桔梗紫 —— OneTHU 亮色主题插件（非官方创作）",
+  "license": "MIT",
+  "scripts": { "test": "node test.mjs" }
+}
