@@ -15,7 +15,7 @@
 | `dark` | `false`（浅色外观） |
 | `description` | 紫白两色，纸面偏冷；品牌标识为自绘建筑轮廓。非官方创作，与清华大学无关。（36 字，上限 42） |
 | `repo` | `https://github.com/lotus0moon/OneTHU-theme-jiegengzi`（仓库根即本目录，市场按仓库根找 `plugin.js`） |
-| 入口文件 | `plugin.js`（4703B / 101 行，单文件 ES 模块，导出 `manifest` 与 `theme`） |
+| 入口文件 | `plugin.js`（4789B / 102 行，单文件 ES 模块，导出 `manifest` 与 `theme`） |
 
 主题是纯声明式的：**没有激活函数**，不注册页面、不监听事件、无副作用。`plugin.js` 里只有三个数据段 —— `vars`（35 个令牌）、`logo`（一段 SVG 字符串）、`css`（4 条带作用域的规则）。
 
